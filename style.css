@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f1f6f9;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 12.8rem 0;
+  max-width: 100rem;
+}
+
+.colors--bg {
+  margin: 5rem 0;
+  background-color: rgba(0,0,0,.2);
+  width: 100rem;
+  height: 3rem;
+  border-radius: 5rem;
+}
+
+.colors {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: inherit;
+  border-radius: 5rem;
+  border: 2px solid rgba(0,0,0,.2);
+  box-shadow: 0 3px 3px rgba(0,0,0,.5), inset 0 7px 0 -6px #fff;
+}
+
+.colors--green {
+  background-image: repeating-linear-gradient(120deg, rgb(73, 255, 0), rgba(73, 255, 0, .2) 5px);
+}
+
+.colors--red {
+  background-image: repeating-linear-gradient(120deg, rgb(236, 114, 114), rgba(236, 114, 114, .2) 5px);
+}
+
+.colors--white {
+  background-image: repeating-linear-gradient(120deg, rgb(250, 250, 250), rgba(250, 250, 250) 5px);
+}
+
+.colors--blue {
+  background-image: repeating-linear-gradient(120deg, rgb(92, 184, 228), rgba(92, 184, 228, .2) 5px);
+}
+
+.colors--yellow {
+  background-image: repeating-linear-gradient(120deg, rgb(242, 223, 58), rgba(242, 223, 58, .3) 5px);
+}
+
+.color-text {
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: rgba(0,0,0,.7);
+}
+
+.button {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+}
